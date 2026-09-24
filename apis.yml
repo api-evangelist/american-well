@@ -1,7 +1,6 @@
 aid: american-well
 name: American Well
-description: 'American Well is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'American Well, operating as Amwell, provides a comprehensive telehealth platform connecting patients, providers, and payers. Their services include virtual primary care, digital behavioral health, specialty consults, and integrated care solutions, enabling scalable, on-demand healthcare delivery across the United States.'
 url: https://raw.githubusercontent.com/api-evangelist/american-well/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -19,5 +18,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/american-well-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/american-well_stock/
+  url: https://business.amwell.com/
+- type: Blog
+  url: https://business.amwell.com/blog
+- type: Documentation
+  url: https://business.amwell.com/about-us
+- type: APIReference
+  url: https://business.amwell.com/api
+- type: DeveloperPortal
+  url: https://business.amwell.com/developers
+- type: Pricing
+  url: https://business.amwell.com/pricing
+- type: SignUp
+  url: https://business.amwell.com/contact-us
+- type: TermsOfService
+  url: https://business.amwell.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://business.amwell.com/privacy-policy
+- type: Support
+  url: https://community.amwell.com/p/support
+- type: Postman
+  url: https://www.postman.com/organization/american-well
